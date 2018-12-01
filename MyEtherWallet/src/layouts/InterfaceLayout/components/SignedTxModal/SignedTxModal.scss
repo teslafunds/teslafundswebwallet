@@ -1,0 +1,65 @@
+@import '~@/scss/GlobalVariables';
+
+.modal-container {
+  padding: 30px;
+  text-align: center;
+}
+
+.signed-tx-modal {
+  .title-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+
+  .signed-tx-container,
+  .raw-tx-container {
+    background: $light-grey-1;
+    border-radius: 4px;
+    padding: 20px 20px;
+    margin-top: 10px;
+
+    &.collapsed {
+      padding: 5px 0 0;
+
+      code {
+        display: none;
+      }
+    }
+  }
+
+  .raw {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 15px 0;
+    border-bottom: 2px solid #f9f9f9;
+    border-top: 2px solid #f9f9f9;
+
+    code {
+      color: $black;
+      font-weight: 200;
+    }
+  }
+}
+
+// Desktop
+@media all and (min-width: calc(#{$tablet-width} + 1px)) {
+  .modal-body {
+    padding: 30px 35px;
+  }
+}
+
+// Tablet
+@media all and (min-width: calc(#{$mobile-width} + 1px)) and (max-width: $tablet-width) {
+  .modal-body {
+    padding: 30px 15px;
+  }
+}
+
+// Mobile
+@media all and (max-width: $mobile-width) {
+  .modal-body {
+    padding: 30px 15px;
+  }
+}
