@@ -3,41 +3,32 @@
     ref="verification"
     hide-footer
     centered
-    class="bootstrap-modal-wide verification nopadding"
+    class="bootstrap-modal verification nopadding"
     title="Verification"
   >
-    <div class="content-block">
-      <p class="block-title">
-        Please enter and fill out the empty boxes below to verify your mnemonic
-        phrase key.
-      </p>
-      <div class="phrases">
-        <ul>
-          <li
-            v-for="(value, index) in mnemonicValues"
-            :key="index"
-            :data-index="index + 1"
-            class="word"
-          >
-            {{ index + 1 }}.<span>{{ value }}</span>
-            <input class="hidden" type="text" name="" autocomplete="off" />
-          </li>
-        </ul>
+    <div class="modal-content-container">
+      <div class="verification-content">
+        <p class="block-title">
+          Please enter and fill out the empty boxes below to verify your
+          mnemonic phrase key.
+        </p>
       </div>
-      <div class="button-container">
-        <div
-          class="verify-button large-round-button-green-filled"
-          @click="mnemonicDoneModalOpen"
-        >
-          Verify
-        </div>
+
+      <div class="verify-button">
+        <stadard-button :options="options" @click="mnemonicDoneModalOpen" />
       </div>
     </div>
+    <!-- modal-content-container -->
   </b-modal>
 </template>
 
 <script>
+import StandardButton from '@/components/Buttons/StandardButton';
+
 export default {
+  components: {
+    'stadard-button': StandardButton
+  },
   props: {
     mnemonicValues: {
       type: Array,
@@ -51,7 +42,13 @@ export default {
     }
   },
   data() {
-    return {};
+    return {
+      options: {
+        title: 'Verify',
+        buttonStyle: 'green',
+        fullWidth: true
+      }
+    };
   }
 };
 </script>

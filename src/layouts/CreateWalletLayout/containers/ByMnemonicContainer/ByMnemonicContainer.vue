@@ -73,7 +73,9 @@
 <script>
 import CreateWalletInputFooter from '@/layouts/CreateWalletLayout/components/CreateWalletInputFooter';
 import FinishModal from './components/FinishModal';
-import VerificationModal from './components/VerificationModal';
+//import VerificationModal from './components/VerificationModal';
+import VerificationModal from './components/RadioButtonVerificationModal';
+
 // Mnemonic code for generating deterministic keys
 const bip39 = require('bip39');
 
@@ -148,6 +150,7 @@ export default {
       }
     },
     mnemonicVerificationModalOpen() {
+      /*
       // Generate random numbers to choose which blocks to hide
       function generateNumArr(limit) {
         const ret = [];
@@ -209,7 +212,7 @@ export default {
           .querySelector('input')
           .classList.remove('hidden');
       }
-
+      */
       this.$refs.verification.$refs.verification.show();
     }
   }
