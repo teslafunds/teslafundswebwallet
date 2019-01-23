@@ -5,6 +5,7 @@ import egem from './egem';
 import ella from './ella';
 import eosc from './eosc';
 import esn from './esn';
+import tsf from './tsf'
 import etcethereumcommonwealthgeth from './etc-ethereumcommonwealth-geth';
 import etcethereumcommonwealthparity from './etc-ethereumcommonwealth-parity';
 import etcgastracker from './etc-gastracker';
@@ -38,6 +39,7 @@ export {
   ella,
   eosc,
   esn,
+  tsf,
   etcethereumcommonwealthgeth,
   etcethereumcommonwealthparity,
   etcgastracker,
