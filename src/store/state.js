@@ -2,7 +2,6 @@ import nodeList from '@/networks';
 import store from 'store';
 if (store.get('notifications') === undefined) store.set('notifications', {});
 
-console.log(nodeList);
 const network =
   store.get('network') !== undefined
     ? store.get('network')
