@@ -2,10 +2,11 @@ import nodeList from '@/networks';
 import store from 'store';
 if (store.get('notifications') === undefined) store.set('notifications', {});
 
+console.log(this.$store.state.Networks);
 const network =
   store.get('network') !== undefined
     ? store.get('network')
-    : nodeList['ETH'][0];
+    : nodeList['TSF'][0];
 const notifications =
   store.get('notifications') !== undefined ? store.get('notifications') : {};
 const gasPrice =
