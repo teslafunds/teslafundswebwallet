@@ -1,4 +1,4 @@
-import { ETC } from '../types';
+import { TSF } from '../types';
 export default {
   type: TSF,
   service: 'Teslafunds node',

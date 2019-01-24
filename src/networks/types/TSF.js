@@ -1,4 +1,4 @@
-// import tokens from '@/tokens/tokens-tsf.json';
+import tokens from '@/tokens/tokens-tsf.json';
 import contracts from '@/contracts/contract-abi-tsf.json';
 import etc from '@/assets/images/networks/tsf.svg';
 // import { EthAbi } from '../ensAbis';

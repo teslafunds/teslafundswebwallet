@@ -5,6 +5,7 @@ import EGEM from './EGEM.js';
 import ELLA from './ELLA.js';
 import EOSC from './EOSC.js';
 import ESN from './ESN.js';
+import TSF from './TSF.js';
 import ETC from './ETC.js';
 import ETH from './ETH.js';
 import ETHO from './ETHO.js';
@@ -27,6 +28,7 @@ export {
   ELLA,
   EOSC,
   ESN,
+  TSF,
   ETC,
   ETH,
   ETHO,

@@ -1060,6 +1060,12 @@ i {
 .cc.UBQ::before {
   content: '\f25a';
 }
+.cc.TSF-alt::before {
+  content: '\f259';
+}
+.cc.TSF::before {
+  content: '\f25a';
+}
 .cc.UNITY-alt::before {
   content: '\f25b';
 }
