@@ -264,27 +264,27 @@ export default {
     toggleSideMenu() {
       this.$store.commit('TOGGLE_SIDEMENU');
     },
-    async fetchTokens() {
-      this.receivedTokens = true;
-      let tokens = [];
-      if (this.network.type.chainID === 1 || this.network.type.chainID === 3) {
-        const tb = new TokenBalance(this.web3.currentProvider);
-        try {
-          tokens = await tb.getBalance(this.wallet.getChecksumAddressString());
-        } catch (e) {
-          tokens = this.network.type.tokens.map(token => {
-            token.balance = 'Load';
-            return token;
-          });
-        }
-      } else {
-        tokens = this.network.type.tokens.map(token => {
-          token.balance = 'Load';
-          return token;
-        });
-      }
-      return tokens;
-    },
+//    async fetchTokens() {
+//      this.receivedTokens = true;
+//      let tokens = [];
+//      if (this.network.type.chainID === 1 || this.network.type.chainID === 3) {
+//        const tb = new TokenBalance(this.web3.currentProvider);
+//        try {
+//          tokens = await tb.getBalance(this.wallet.getChecksumAddressString());
+//        } catch (e) {
+//          tokens = this.network.type.tokens.map(token => {
+//            token.balance = 'Load';
+//            return token;
+//          });
+//        }
+//      } else {
+//        tokens = this.network.type.tokens.map(token => {
+//          token.balance = 'Load';
+//          return token;
+//        });
+//      }
+//      return tokens;
+//    },
     async setNonce() {
       const nonce = await this.web3.eth.getTransactionCount(
         this.wallet.getAddressString()
