@@ -9,7 +9,7 @@ export default {
   homePage: 'https://teslafunds.io/',
   blockExplorerTX: 'https://tsfexplorer.xyz/tx/[[txHash]]',
   blockExplorerAddr: 'https://tsfexplorer.xyz/address/[[address]]',
-  chainID: 1856,
+  chainID: 56,
 //  tokens: tokens,
   contracts: contracts,
   ensResolver: '',
