@@ -10,7 +10,7 @@ export default {
   blockExplorerTX: 'https://tsfexplorer.xyz/tx/[[txHash]]',
   blockExplorerAddr: 'https://tsfexplorer.xyz/address/[[address]]',
   chainID: 56,
-//  tokens: tokens,
+  //tokens: tokens,
   contracts: contracts,
   ensResolver: '',
   ensAbi: '',
