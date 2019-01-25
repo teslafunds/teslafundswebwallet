@@ -40,7 +40,7 @@ export default [
   eosClassic,
   akroma,
   etherSocialNetwork,
-  teslafuns,
+  teslafunds,
   pirl,
   ether1,
   atheios,
