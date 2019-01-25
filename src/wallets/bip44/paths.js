@@ -58,6 +58,10 @@ const etherSocialNetwork = {
   path: "m/44'/31102'/0'/0",
   label: 'EtherSocial Network'
 };
+const teslafunds = {
+  path: "m/44'/56'/0'/0",
+  label: 'Teslafunds'
+};
 const pirl = {
   path: "m/44'/164'/0'/0",
   label: 'PIRL'
