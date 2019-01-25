@@ -139,6 +139,7 @@ export {
   eosClassic,
   akroma,
   etherSocialNetwork,
+  teslafunds,
   pirl,
   ether1,
   atheios,
