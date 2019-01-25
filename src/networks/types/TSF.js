@@ -14,5 +14,5 @@ export default {
   contracts: contracts,
   ensResolver: '',
   ensAbi: '',
-  icon: etc
+  icon: tsf
 };
