@@ -2,7 +2,7 @@ import { TSF } from '../types';
 export default {
   type: TSF,
   service: 'Teslafunds.io',
-  url: 'http://192.168.1.54',
+  url: 'http://localhost',
   port: 4949,
   auth: false,
   username: '',
