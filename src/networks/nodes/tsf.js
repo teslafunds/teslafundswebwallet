@@ -3,7 +3,7 @@ export default {
   type: TSF,
   service: 'Teslafunds.io',
   url: 'https://tsfapi.europool.me/',
-  port: 443,
+  port: ,
   auth: false,
   username: '',
   password: ''
