@@ -16,7 +16,7 @@
           class="tx-speed"
         >
           <div class="tx-success">
-            Your transaction amount <span>2.100000 TSF</span> to address
+            Your transaction amount <span>2.100000 ETH</span> to address
             <p>0x1d3649b580f77f8fd81a6546398d1926c49eb336</p>
             has been successfully transferred.
           </div>

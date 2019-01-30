@@ -18,7 +18,7 @@
       <ul>
         <li>
           <p>{{ $t('header.amount') }}:</p>
-          <p>{{ convertToEth(details.amount) }} TSF</p>
+          <p>{{ convertToEth(details.amount) }} ETH</p>
         </li>
         <li>
           <p>{{ $t('common.toAddress') }}:</p>

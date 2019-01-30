@@ -16,7 +16,7 @@
         </li>
         <li>
           <p>{{ $t('header.amount') }}:</p>
-          <p>{{ convertToEth(details.amount) }} TSF</p>
+          <p>{{ convertToEth(details.amount) }} ETH</p>
         </li>
         <li>
           <p>{{ $t('common.toAddress') }}:</p>
@@ -37,7 +37,7 @@
         <li v-if="notice.body.gasUsed">
           <p>{{ $t('common.txFee') }}:</p>
           <p>
-            {{ convertToEth(details.gasPrice * details.gasUsed) }} TSF (${{
+            {{ convertToEth(details.gasPrice * details.gasUsed) }} ETH (${{
               getFiatValue(details.gasPrice * details.gasUsed)
             }})
           </p>
@@ -45,7 +45,7 @@
         <li>
           <p>{{ $t('header.maxTxFee') }}:</p>
           <p>
-            {{ convertToEth(details.gasPrice * details.gasLimit) }} TSF (${{
+            {{ convertToEth(details.gasPrice * details.gasLimit) }} ETH (${{
               getFiatValue(details.gasPrice * details.gasLimit)
             }})
           </p>
