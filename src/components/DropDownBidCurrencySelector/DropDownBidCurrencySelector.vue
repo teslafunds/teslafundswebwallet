@@ -10,7 +10,7 @@
         class="dropdown-input-box"
         @click="openDropdownFocustToSearchInput"
       >
-        <div class="selected-coin">ETH</div>
+        <div class="selected-coin">TSF</div>
         <div class="dropdown-open-button">
           <i
             v-if="!dropdownOpen"
