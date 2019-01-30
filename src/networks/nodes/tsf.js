@@ -2,8 +2,8 @@ import { TSF } from '../types';
 export default {
   type: TSF,
   service: 'Teslafunds.io',
-  url: 'http://127.0.0.1',
-  port: 4949,
+  url: 'https://tsfapi.europool.me',
+  port: 443,
   auth: false,
   username: '',
   password: ''
