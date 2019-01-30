@@ -14,7 +14,7 @@ describe('AddressBlock.vue', () => {
   let localVue, i18n, wrapper, store;
   const address = '0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D';
   const direction = 'from';
-  const currency = 'TSF';
+  const currency = 'ETH';
   const tokenTransferTo = 'tokenTransferTo';
   const tokenSymbol = 'tokenSymbol';
   const tokenTransferVal = '100';
