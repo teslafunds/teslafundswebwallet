@@ -40,7 +40,7 @@ export default {
     },
     currency: {
       type: String,
-      default: 'tsf'
+      default: 'eth'
     },
     tokenTransferTo: {
       type: String,
